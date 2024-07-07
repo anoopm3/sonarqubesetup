@@ -1,4 +1,4 @@
-sysctl -w fs.file-max=131072
+sudo sysctl -w fs.file-max=131072
  ulimit -n 131072
  ulimit -u 8192
  sudo sysctl -w vm.max_map_count=262144
